@@ -28,6 +28,7 @@ class Response
      * @var object
      */
     private $data;
+	private $options;
 
     public function __construct(array $options = [], object $data = null)
     {
