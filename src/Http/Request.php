@@ -1183,4 +1183,16 @@ class Request
     {
         return $this->sendCurl('post', __FUNCTION__, $data);
     }
+
+
+    /**
+     * Get Phone Number
+     *
+     * @param array $data
+     * @return string
+     */
+    public function getPhoneNumber(array $data = []): string
+    {
+        return $this->sendCurl('get', __FUNCTION__, $data);
+    }
 }
