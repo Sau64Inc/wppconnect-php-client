@@ -1,5 +1,5 @@
 {
-    "name": "wppconnect-team/wppconnect-php-client",
+    "name": "sau64inc/wppconnect-php-client",
     "description": "Um simples cliente PHP que proporciona acesso fácil aos endpoints do WPPConnect Server.",
     "homepage": "https://github.com/wppconnect-team/wppconnect-php-client",
     "keywords": [
