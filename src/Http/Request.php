@@ -23,6 +23,7 @@ namespace WPPConnect\Http;
 class Request
 {
     protected $shouldDie = true;
+	private $options;
 
     public function __construct(array $options = [])
     {
